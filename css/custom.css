@@ -1,0 +1,129 @@
+html { 
+    font-family: 'Montserrat', sans-serif;
+ }
+
+ body {
+     display: inline;
+     text-align: center;
+}
+
+.butn {
+    color: #707070;
+    font-size: 18px;
+    background: #fff;
+    padding: 10px 20px 10px 20px;
+    border: solid #888 1px;
+    border-radius: 5px;
+    text-decoration: none;
+    line-height: 0px;
+    cursor: pointer;
+}
+
+.butn:hover {
+    text-decoration: none;
+}
+
+.header .butn-group { 
+    padding-top: 35px;
+}
+
+.header { 
+    height: 319px;
+    align-self: auto;
+    text-align: center;
+    box-sizing: unset;
+    color: #fff;
+    background: #707070;
+    width: 100%;
+    margin-top: -20px;
+    padding-top: 1px;
+}
+
+.header .butn {
+     width: 160px;
+     height: 40px;
+     font-size: 14px;
+     margin-top: 0px;
+}
+
+.header h2 {
+    padding-top: 69px;
+    font-size: 20px;
+    line-height: 0px;
+    font-weight: 100;
+}
+
+.header h1 {
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.header h3 {
+     font-size: 14px;
+     font-weight: 100;
+}
+
+div h3 { 
+    line-height: 35px;
+    font-size: 14px;
+}
+
+ .textoSec {
+    font-weight: 18px;
+    text-align: center;
+    padding-top: 50px;
+    color: #888888;
+} 
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 800px;
+    background:#ddf;
+    text-align: center;
+  }
+
+  .imagemProduto {
+      
+    border: solid #888 1px;
+    grid-auto-rows: 800px;
+    
+  }
+
+  .nomeProduto {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 20px;
+    text-align: left;
+  }
+
+  .descricaoProduto {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 20px;
+    text-align: left;
+  }
+
+  .valorProduto {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 20px;
+    text-align: left;
+  }
+
+  .valorDescontoProduto {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 20px;
+    text-align: left;
+    font-size: 24px;
+    color: #000000;
+  }
+
+  .valorDescontoProduto2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 20px;
+    text-align: left;
+  }
+
